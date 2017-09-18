@@ -23,7 +23,8 @@ Win10 64 bits, CHT/BIG5
 1) download & install Free Pascal, today, 3.0.2, https://sourceforge.net/projects/freepascal/files/Win32/3.0.2/fpc-3.0.2.i386-win32.exe/download, the user interface is a littel bit mess of display with Win10 CHT
 ```c++
 To embeds image to this read.me
-![alt text](http://url/to/img.png)
+![alt text](http://url/to/img.png)  
+https://github.com/xiaolaba/gavrasm_CHT/blob/master/FPC3.0.2_screen.jpg
 ```
 ![alt text](https://github.com/xiaolaba/gavrasm_CHT/blob/master/FPC3.0.2_screen.jpg)
 
@@ -46,5 +47,7 @@ gavrasm -h
 7) console output is not be able to display BIG5 char properly, do not know why, uses notepad++ to open test.lst it is fine and display in proper.
 ```c++
 To embeds image to this read.me
-![alt text](https://github.com/xiaolaba/gavrasm_CHT/blob/master/console_problem.jpg)
+![alt text](http://url/to/img.png)  
+https://github.com/xiaolaba/gavrasm_CHT/blob/master/console_problem.jpg
 ```
+![alt text](https://github.com/xiaolaba/gavrasm_CHT/blob/master/console_problem.jpg)
