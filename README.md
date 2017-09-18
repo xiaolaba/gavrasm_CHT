@@ -3,7 +3,7 @@ gavrasm_CHT
 Originator and credits,
 http://www.avr-asm-tutorial.net/gavrasm/index_en.html#source
 
-it is assembler for AVR MCU, open source, available for download. My attempt to build avr mcu bootloader to uses with this tool, and then a try of the locale support to display Traditional Chinese language. Traditional Chinese Language support (CHT or BIG5).
+It is assembler for AVR MCU, open source, available for download. My attempt to build avr mcu bootloader to uses with this tool, and then a try of the locale support to display Traditional Chinese language. Traditional Chinese Language support (CHT or BIG5).
 
 (side issue, github web editor, no new line was allowed !? add two spaces to each end of line, then press ENTER, will do the job and displyed as a new line desired, see https://stackoverflow.com/questions/24575680/new-lines-inside-paragraph-in-readme-md)
 
