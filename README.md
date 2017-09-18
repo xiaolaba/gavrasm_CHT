@@ -32,7 +32,7 @@ https://github.com/xiaolaba/gavrasm_CHT/blob/master/FPC3.0.2_screen.jpg
 2) download gavrsam, the source code, today, version 3.6, http://www.avr-asm-tutorial.net/gavrasm/index_en.html#source, (hopefuly the author will counts and release update for this user string port soon or later)
 
 
-3) download <a href="https://github.com/xiaolaba/gavrasm_CHT/blob/master/gavrlang_cht.pas">gavrlang_cht.pas</a>, gavrlang_cht.pas from this respostory, remname to gavrlang.pas, then copy to folder of the source code
+3) download <a href="https://github.com/xiaolaba/gavrasm_CHT/blob/master/gavrlang_cht.pas">gavrlang_cht.pas</a>, from this respostory, remname to gavrlang.pas, then copy to folder of the source code
 
 
 
@@ -46,6 +46,9 @@ gavrasm -h
 
 
 6) download test.asm from this repository, it is provided courtesy by the author, gavrasm test.asm will generates two files, test.hex & test.lst
+<a href="https://github.com/xiaolaba/gavrasm_CHT/blob/master/test.asm">test.asm</a>
+<a href="https://github.com/xiaolaba/gavrasm_CHT/blob/master/test.lst">test.lst</a>
+<a href="https://github.com/xiaolaba/gavrasm_CHT/blob/master/test.hex">test.hex</a>
 
 7) console output is not be able to display BIG5 char properly, do not know why, uses notepad++ to open test.lst it is fine and display in proper.
 ```c++
