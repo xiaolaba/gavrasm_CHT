@@ -45,10 +45,10 @@ gavrasm -h
 
 
 
-6) download test.asm from this repository, it is provided courtesy by the author, gavrasm test.asm will generates two files, test.hex & test.lst
-<a href="https://github.com/xiaolaba/gavrasm_CHT/blob/master/test.asm">test.asm</a>
-<a href="https://github.com/xiaolaba/gavrasm_CHT/blob/master/test.lst">test.lst</a>
-<a href="https://github.com/xiaolaba/gavrasm_CHT/blob/master/test.hex">test.hex</a>
+6) download test.asm from this repository, it is provided courtesy by the author, gavrasm test.asm will generates two files, test.hex & test.lst  
+<a href="https://github.com/xiaolaba/gavrasm_CHT/blob/master/test.asm">test.asm</a>  
+<a href="https://github.com/xiaolaba/gavrasm_CHT/blob/master/test.lst">test.lst</a>  
+<a href="https://github.com/xiaolaba/gavrasm_CHT/blob/master/test.hex">test.hex</a>  
 
 7) console output is not be able to display BIG5 char properly, do not know why, uses notepad++ to open test.lst it is fine and display in proper.
 ```c++
