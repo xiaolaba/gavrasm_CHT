@@ -33,6 +33,8 @@ https://github.com/xiaolaba/gavrasm_CHT/blob/master/FPC3.0.2_screen.jpg
 
 3) download https://github.com/xiaolaba/gavrasm_CHT/blob/master/gavrlang_cht.pas, gavrlang_cht.pas from this respostory, remname to gavrlang.pas, then copy to folder of the source code
 
+<a href="http://www.quora.com/Adam-DAngelo">Quora profile link for Adam D'Angelo</a>
+
 4) open Free Pascal, open the gavrasm.pas, hit F9 to compile the tools, gavrasm.exe is about 6MB
 
 5) uses command line, gavrasm -h, will display simple help manual
