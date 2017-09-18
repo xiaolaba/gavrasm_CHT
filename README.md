@@ -36,7 +36,7 @@ https://github.com/xiaolaba/gavrasm_CHT/blob/master/FPC3.0.2_screen.jpg
 
 
 
-4) open Free Pascal, open the gavrasm.pas, hit F9 to compile the tools, gavrasm.exe is about 6MB
+4) open Free Pascal, open the gavrasm.pas, hit F9 to compile the tools, <a href="https://github.com/xiaolaba/gavrasm_CHT/files/1309746/gavrasm_cht.zip">gavrasm_cht.exe in zip</a> is about 6MB
 
 5) uses command line, gavrasm -h, will display simple help manual
 ```c++
