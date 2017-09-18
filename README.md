@@ -21,6 +21,9 @@ how to:
 Win10 64 bits, CHT/BIG5
 
 1) download & install Free Pascal, today, 3.0.2, https://sourceforge.net/projects/freepascal/files/Win32/3.0.2/fpc-3.0.2.i386-win32.exe/download, the user interface is a littel bit mess of display with Win10 CHT
+```c++ to embeded image to this read.me
+![alt text](http://url/to/img.png)
+```
 ![alt text](https://github.com/xiaolaba/gavrasm_CHT/blob/master/FPC3.0.2_screen.jpg)
 
 
