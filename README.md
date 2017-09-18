@@ -1,5 +1,5 @@
 # gavrasm_CHT
-a try and port the some user interface with Traditional Chinese Language support (CHT or BIG5)  
+a try and port the some user strings with Traditional Chinese Language support (CHT or BIG5)  
 
 try to build avr mcu bootloader, the tool and avaialbe for fownload, try the locale support for Traditional Chinese language supprot
 
