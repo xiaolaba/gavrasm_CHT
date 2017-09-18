@@ -1,11 +1,9 @@
-# gavrasm_CHT
-a try and port the some user strings with Traditional Chinese Language support (CHT or BIG5)  
-
-try to build avr mcu bootloader, the tool and avaialbe for fownload, try the locale support for Traditional Chinese language support
+gavrasm_CHT
 
 Originator and credits,
 http://www.avr-asm-tutorial.net/gavrasm/index_en.html#source
 
+it is assembler for AVR MCU, open source, available for download. My attempt to build avr mcu bootloader, a try of the locale support to display Traditional Chinese language. Traditional Chinese Language support (CHT or BIG5).
 
 (side issue, github web editor, no new line was allowed !? add two spaces to each end of line, then press ENTER, will do the job and displyed as a new line desired, see https://stackoverflow.com/questions/24575680/new-lines-inside-paragraph-in-readme-md)
 
@@ -19,7 +17,7 @@ http://www.avr-asm-tutorial.net/gavrasm/index_en.html#source
 
   
   
-how to:
+### how to: ###
 Win10 64 bits, CHT/BIG5
 
 1) download & install Free Pascal, today, 3.0.2, https://sourceforge.net/projects/freepascal/files/Win32/3.0.2/fpc-3.0.2.i386-win32.exe/download, the user interface is a littel bit mess of display with Win10 CHT
