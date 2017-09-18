@@ -8,12 +8,12 @@ it is assembler for AVR MCU, open source, available for download. My attempt to 
 (side issue, github web editor, no new line was allowed !? add two spaces to each end of line, then press ENTER, will do the job and displyed as a new line desired, see https://stackoverflow.com/questions/24575680/new-lines-inside-paragraph-in-readme-md)
 
 ### Notes ###
-  xiaolaba, 2017-sep-18, Traditional Chinese Language interface (CHT)
-  source code file format, UTF-8-BOM, 
-  file editor used: https://notepad-plus-plus.org/
-  Windows 10, CHT/BIG5, codepage 950
-  Console output: no proper CHT characters set display ! except English string
-  ASM listing : BIG5 characters set is able to display properly with win10 and editor used.
+  xiaolaba, 2017-sep-18, Traditional Chinese Language interface (CHT)  
+  source code file format, UTF-8-BOM,  
+  file editor used: https://notepad-plus-plus.org/  
+  Windows 10, CHT/BIG5, codepage 950  
+  Console output: no proper CHT characters set display ! except English string  
+  ASM listing : BIG5 characters set is able to display properly with win10 and editor used.  
 
   
   
