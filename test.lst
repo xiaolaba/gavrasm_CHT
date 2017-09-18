@@ -1,0 +1,106 @@
+gavrasm Gerd's AVR assembler version 3.7 (C)2017 by DG4FAC
+----------------------------------------------------------
+源文件:test.asm
+十六進製文件:test.hex
+EEPROM 檔案:test.eep
+編譯完畢:18.09.2017, 09:19:25
+通過:2
+     1: ;
+     2: ; *********************************
+     3: ; *                               *
+     4: ; *                               *
+     5: ; *********************************
+     6: ;
+     7: .nolist
+    10: ;
+    11: ; **********************************
+    12: ;        H A R D W A R E
+    13: ; **********************************
+    14: ;
+    15: ; **********************************
+    16: ;  P O R T S   A N D   P I N S
+    17: ; **********************************
+    18: ;
+    19: .equ pOut = PORTB ; Define a output port
+    20: .equ pDir = DDRB ; Define a direction port
+    21: .equ pIn = PINB ; Define an input port
+    22: .equ bMyPinO = PORTB0 ; Define an output pin
+    23: .equ bDir0 = DDB0 ; Define a direction pin
+    24: .equ bMyIn = PINB0 ; Define an input pin
+    25: ;
+    26: ; **********************************
+    27: ;   A D J U S T A B L E   C O N S T
+    28: ; **********************************
+    29: ;
+    30: .equ clock=1200000 ; Define clock frequency
+    31: ;
+    32: ; **********************************
+    33: ;  F I X  &  D E R I V.  C O N S T
+    34: ; **********************************
+    35: ;
+    36: .equ cTc0Clk = clock / 256 ; Define from clock
+    37: ;
+    38: ; **********************************
+    39: ;       R E G I S T E R S
+    40: ; **********************************
+    41: ;
+    42: ; free: R0 to R14
+    43: .def rSreg = R15 ; Save/Restore status port
+    44: .def rmp = R16 ; Define multi purpose register
+    45: ; free: R17 to R29
+    46: ; used: R31:R30 = Z for ...
+    47: ;
+    48: ; **********************************
+    49: ;           S R A M
+    50: ; **********************************
+    51: ;
+    52: .dseg
+    53: .org SRAM_START
+    54: sLabel1:
+    55: .byte 16 ; Reserve 16 bytes
+    56: ;
+    57: ; **********************************
+    58: ;         C O D E
+    59: ; **********************************
+    60: ;
+    61: .cseg
+    62: .org 000000
+    63: ;
+    64: ; **********************************
+    65: ; R E S E T  &  I N T - V E C T O R S
+    66: ; **********************************
+    67: 000000   C000  rjmp Main ; Reset vector
+    68: ; Add all int vectors here with reti
+    69: ;
+    70: ; **********************************
+    71: ;  I N T - S E R V I C E   R O U T .
+    72: ; **********************************
+    73: ;
+    74: ; Add all interrupt service routines
+    75: ;
+    76: ; **********************************
+    77: ;  M A I N   P R O G R A M   I N I T
+    78: ; **********************************
+    79: ;
+    80: Main:
+    81: 000001   E90F  ldi rmp,Low(RAMEND)
+    82: 000002   BF0D  out SPL,rmp ; Init LSB stack pointer
+    83: ; ...
+    84: 000003   9478  sei ; Enable interrupts
+    85: ;
+    86: ; **********************************
+    87: ;    P R O G R A M   L O O P
+    88: ; **********************************
+    89: ;
+    90: Loop:
+    91: 000004   CFFF  rjmp loop
+    92: ; End of source code
+ -> 警告001: 9 symbol(s) defined, but not used!
+
+程序:       5 words.
+常數:       0 words.
+總程序內存:"       5 words.
+EEPROM 空間:       0 bytes.
+數據段:"      16 bytes.
+編譯完成,沒有錯誤
+編纂端"18.09.2017, 09:19:25
