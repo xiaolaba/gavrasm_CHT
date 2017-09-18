@@ -30,7 +30,7 @@ To embeds image to this read.me
 
 2) download gavrsam, the source code, today, version 3.6, http://www.avr-asm-tutorial.net/gavrasm/index_en.html#source, (hopefuly the author will counts and release update for this user string port soon or later)
 
-3) download gavrlang_cht.pas from this respostory, remname to gavrlang.pas, then copy to folder of the source code
+3) download https://github.com/xiaolaba/gavrasm_CHT/blob/master/gavrlang_cht.pas, gavrlang_cht.pas from this respostory, remname to gavrlang.pas, then copy to folder of the source code
 
 4) open Free Pascal, open the gavrasm.pas, hit F9 to compile the tools, gavrasm.exe is about 6MB
 
