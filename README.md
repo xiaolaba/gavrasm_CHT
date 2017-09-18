@@ -32,11 +32,11 @@ https://github.com/xiaolaba/gavrasm_CHT/blob/master/FPC3.0.2_screen.jpg
 2) download gavrsam, the source code, today, version 3.6, http://www.avr-asm-tutorial.net/gavrasm/index_en.html#source, (hopefuly the author will counts and release update for this user string port soon or later)
 
 
-3) download <a href="https://github.com/xiaolaba/gavrasm_CHT/blob/master/gavrlang_cht.pas">gavrlang_cht.pas</a>, from this respostory, remname to gavrlang.pas, then copy to folder of the source code
+3) download <a href="https://github.com/xiaolaba/gavrasm_CHT/blob/master/gavrlang_cht.pas">gavrlang_cht.pas</a>, from this respostory, rename to gavrlang.pas, then copy to folder of the source code
 
 
 
-4) open Free Pascal, open the gavrasm.pas, hit F9 to compile the tools, <a href="https://github.com/xiaolaba/gavrasm_CHT/files/1309746/gavrasm_cht.zip">gavrasm_cht.exe in zip</a> is about 6MB
+4) open Free Pascal, open the gavrasm.pas, hit F9 to compile this AVR assembler tool, <a href="https://github.com/xiaolaba/gavrasm_CHT/files/1309746/gavrasm_cht.zip">gavrasm_cht.exe in zip</a> is about 6MB
 
 5) uses command line, gavrasm -h, will display simple help manual
 ```c++
