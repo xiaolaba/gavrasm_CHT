@@ -46,5 +46,5 @@ gavrasm -h
 7) console output is not be able to display BIG5 char properly, do not know why, uses notepad++ to open test.lst it is fine and display in proper.
 ```c++
 To embeds image to this read.me
-![alt text](https://github.com/xiaolaba/gavrasm_CHT/blob/master/console%20problem.jpg)
+![alt text](https://github.com/xiaolaba/gavrasm_CHT/blob/master/console_problem.jpg)
 ```
