@@ -41,7 +41,7 @@
 ;
 ; free: R0 to R14
 .def rSreg = R15 ; Save/Restore status port
-.def rmp = R16 ; Define multi purpose register
+.def rmp = R16 ; Define multipurpose register
 ; free: R17 to R29
 ; used: R31:R30 = Z for ...
 ;
@@ -65,7 +65,7 @@ sLabel1:
 ; R E S E T  &  I N T - V E C T O R S
 ; **********************************
 	rjmp Main ; Reset vector
-; Add all int vectors here with reti
+; Add all int vesctors here with reti
 ;
 ; **********************************
 ;  I N T - S E R V I C E   R O U T .

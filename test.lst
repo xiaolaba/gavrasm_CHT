@@ -1,9 +1,9 @@
 gavrasm Gerd's AVR assembler version 3.6 (C)2017 by DG4FAC
 ----------------------------------------------------------
-Source file: 源碼       : D:\wayne\DIY\AVR MCU\2017-09-06 AVR tiny bootloader assembler\2017-09-17 CHT traslation test\test.asm
-Hex file   : 燒錄檔     : D:\wayne\DIY\AVR MCU\2017-09-06 AVR tiny bootloader assembler\2017-09-17 CHT traslation test\test.hex
-Eeprom file: EEPROM 檔案: D:\wayne\DIY\AVR MCU\2017-09-06 AVR tiny bootloader assembler\2017-09-17 CHT traslation test\test.eep
-Compiled   : 編譯完畢   : 18.09.2017, 14:57:27
+Source file: 源碼       : C:\FPC\3.0.2\gavrasm_sources_doswin_36\test.asm
+Hex file   : 燒錄檔     : C:\FPC\3.0.2\gavrasm_sources_doswin_36\test.hex
+Eeprom file: EEPROM 檔案: C:\FPC\3.0.2\gavrasm_sources_doswin_36\test.eep
+Compiled   : 編譯完畢   : 18.09.2017, 15:00:24
 Pass       : 通過       : 2
      1: ;
      2: ; *********************************
@@ -46,7 +46,7 @@ Pass       : 通過       : 2
     41: ;
     42: ; free: R0 to R14
     43: .def rSreg = R15 ; Save/Restore status port
-    44: .def rmp = R16 ; Define multi purpose register
+    44: .def rmp = R16 ; Define multipurpose register
     45: ; free: R17 to R29
     46: ; used: R31:R30 = Z for ...
     47: ;
@@ -70,7 +70,7 @@ Pass       : 通過       : 2
     65: ; R E S E T  &  I N T - V E C T O R S
     66: ; **********************************
     67: 000000   C000  rjmp Main ; Reset vector
-    68: ; Add all int vectors here with reti
+    68: ; Add all int vesctors here with reti
     69: ;
     70: ; **********************************
     71: ;  I N T - S E R V I C E   R O U T .
@@ -103,4 +103,4 @@ Total program memory: 總程序長度 :        5 words.
 Eeprom space        : EEPROM 用量:        0 bytes.
 Data segment        : 數據       :       16 bytes.
 Compilation completed, no errors. 編譯完成無誤. 
-Compilation endet 編譯印記 18.09.2017, 14:57:28
+Compilation endet 編譯印記 18.09.2017, 15:00:25
