@@ -1,10 +1,10 @@
-gavrasm Gerd's AVR assembler version 3.7 (C)2017 by DG4FAC
+gavrasm Gerd's AVR assembler version 3.6 (C)2017 by DG4FAC
 ----------------------------------------------------------
-源文件:test.asm
-十六進製文件:test.hex
-EEPROM 檔案:test.eep
-編譯完畢:18.09.2017, 09:19:25
-通過:2
+Source file: 源碼       : D:\wayne\DIY\AVR MCU\2017-09-06 AVR tiny bootloader assembler\2017-09-17 CHT traslation test\test.asm
+Hex file   : 燒錄檔     : D:\wayne\DIY\AVR MCU\2017-09-06 AVR tiny bootloader assembler\2017-09-17 CHT traslation test\test.hex
+Eeprom file: EEPROM 檔案: D:\wayne\DIY\AVR MCU\2017-09-06 AVR tiny bootloader assembler\2017-09-17 CHT traslation test\test.eep
+Compiled   : 編譯完畢   : 18.09.2017, 14:57:27
+Pass       : 通過       : 2
      1: ;
      2: ; *********************************
      3: ; *                               *
@@ -95,12 +95,12 @@ EEPROM 檔案:test.eep
     90: Loop:
     91: 000004   CFFF  rjmp loop
     92: ; End of source code
- -> 警告001: 9 symbol(s) defined, but not used!
+ -> Warning 警告 001: 9 symbol(s) defined, but not used! 符號定義但未使用!
 
-程序:       5 words.
-常數:       0 words.
-總程序內存:"       5 words.
-EEPROM 空間:       0 bytes.
-數據段:"      16 bytes.
-編譯完成,沒有錯誤
-編纂端"18.09.2017, 09:19:25
+Program             : 程序       :        5 words.
+Constants           : 常數       :        0 words.
+Total program memory: 總程序長度 :        5 words.
+Eeprom space        : EEPROM 用量:        0 bytes.
+Data segment        : 數據       :       16 bytes.
+Compilation completed, no errors. 編譯完成無誤. 
+Compilation endet 編譯印記 18.09.2017, 14:57:28
