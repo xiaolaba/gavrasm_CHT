@@ -21,6 +21,7 @@ how to:
 Win10 64 bits, CHT/BIG5
 
 1) download & install Free Pascal, today, 3.0.2, https://sourceforge.net/projects/freepascal/files/Win32/3.0.2/fpc-3.0.2.i386-win32.exe/download, the user interface is a littel bit mess of display with Win10 CHT
+![alt text](https://github.com/xiaolaba/gavrasm_CHT/blob/master/FPC3.0.2_screen.jpg)
 
 
 2) download gavrsam, the source code, today, version 3.6, http://www.avr-asm-tutorial.net/gavrasm/index_en.html#source, (hopefuly the author will counts and release update for this user string port soon or later)
