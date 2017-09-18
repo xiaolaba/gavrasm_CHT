@@ -14,6 +14,8 @@ It is assembler for AVR MCU, open source, available for download. My attempt to 
   Windows 10, CHT/BIG5, codepage 950  
   Console output: no proper CHT characters set display ! except English string  
   ASM listing : BIG5 characters set is able to display properly with win10 and editor used.  
+  
+  this is a little extra effort, to uses ConvertZ, a tool for code page conversion, the CHT version is therefore copy to CHS version easily, Simplified Chinese Language interface (CHS or CN), you can download <a href="https://github.com/xiaolaba/gavrasm_CHT/blob/master/gavrlang_chs.pas">gavrlang_chs.pas</a>
 
   
   
