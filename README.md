@@ -7,6 +7,8 @@ Originator and credits,
 http://www.avr-asm-tutorial.net/gavrasm/index_en.html#source
 
 
+(side issue, github web editor, no new line was allowed !? add two spaces to each end of line, then press ENTER, will do the job and displyed as a new line desired, see https://stackoverflow.com/questions/24575680/new-lines-inside-paragraph-in-readme-md)
+
 ####
   xiaolaba, 2017-sep-18, Traditional Chinese Language interface (CHT)
   source code file format, UTF-8-BOM, 
