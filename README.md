@@ -52,10 +52,12 @@ gavrasm -h
 <a href="https://github.com/xiaolaba/gavrasm_CHT/blob/master/test.lst">test.lst</a>  
 <a href="https://github.com/xiaolaba/gavrasm_CHT/blob/master/test.hex">test.hex</a>  
 
-7) console output is not be able to display BIG5 char properly, do not know why, uses notepad++ to open test.lst. It is fine and display in proper.
+7) console output is not be able to display ANSI/OEM or UTF8 char properly, do not know why, uses notepad++ to open test.lst. It is fine and display in proper.
 ```c++
 To embeds image to this read.me
 ![alt text](http://url/to/img.png)  
 https://github.com/xiaolaba/gavrasm_CHT/blob/master/console_problem.jpg
 ```
-![alt text](https://github.com/xiaolaba/gavrasm_CHT/blob/master/console_problem.jpg)
+![alt text](https://github.com/xiaolaba/gavrasm_CHT/blob/master/console_problem.jpg)  
+
+8) a try to know a fact, not issue created by Free pascal, https://github.com/xiaolaba/Free-Pascal-UTF8-supported
